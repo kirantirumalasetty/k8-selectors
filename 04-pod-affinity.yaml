@@ -35,7 +35,7 @@ metadata:
   spec:
     affinity:
       podAntiAffinity:
-        requiredDuringSchedulingIgnoredDuringExecution
+        requiredDuringSchedulingIgnoredDuringExecution:
         - lebelSelector:
             matchExpression:
             - key: purpose
