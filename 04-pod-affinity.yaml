@@ -36,8 +36,8 @@ metadata:
     affinity:
       podAntiAffinity:
         requiredDuringSchedulingIgnoredDuringExecution:
-        - lebelSelector:
-            matchExpression:
+        - labelSelector:
+            matchExpressions:
             - key: purpose
               operator: In
               values:
