@@ -8,7 +8,7 @@ spec:
       preferredDuringSchedulingIgnoredDuringExecution:
       - weight: 1
         preference:
-          matchExpression:
+          matchExpressions:
           - key: another-node-lebel-key
             operator: In
             values:
